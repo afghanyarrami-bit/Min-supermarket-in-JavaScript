@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+</head>
+<body>
+    <div class="app">
+        <h1 class="title">Mini E-Commerce <button id="shoping-cart-info" onclick="addCart()">🛒</button></h1>
+      
+
+      <!--Start of Search Div-->
+      <div class="search"> 
+        <input type="text" name="" id="search-box" placeholder="search Product!">
+        <button id="search-btn" onclick="Search()" >Search</button>
+      </div> <!--End of search Div-->
+
+      <!--Start of show-serach-info Div-->
+        <div class="show-serach-info">
+
+            <div class="pro" id="Schuhe">
+                <i id="icon-product" class="fa-solid fa-shoe-prints icon-center"></i>
+                <h4>Schuhe</h4>
+                <h4>30$</h4>
+                <button onclick="AddtoCart()" id="AddtoCart">Add to card</button>
+            </div> <!--End of pro1-->
+
+            <div class="pro" id="T-shirt">
+                <i id="icon-product" class="fa-solid fa-shirt icon-center"></i>
+                <h4>T-shirt</h4>
+                <h4>60$</h4>
+                <button onclick="AddtoCart()" id="AddtoCart">Add to card</button>
+            </div> <!--End of pro2-->
+
+            <div class="pro" id="Smartwatch">
+                <i id="icon-product" class="fa-solid fa-watch icon-center"></i>
+                <h4>Smartwatch</h4>
+                <h4>10$</h4>
+                <button onclick="AddtoCart()" id="AddtoCart">Add to card</button>
+            </div>   <!--End of pro3-->
+
+            <div class="pro" id="Headphones">
+                <i id="icon-product" class="fa-solid fa-headphones icon-center"></i>
+                <h4>Headphones</h4>
+                <h4>51$</h4>
+                <button onclick="AddtoCart()" id="AddtoCart">Add to card</button>
+            </div> <!--End of pro4-->
+
+            <div class="pro" id="Handy">
+                <i id="icon-product" class="fa-solid fa-mobile icon-center"></i>
+                <h4>Handy</h4>
+                <h4>120$</h4>
+                <button onclick="AddtoCart()" id="AddtoCart">Add to card</button>
+            </div> <!--End of pro5-->
+
+            <div class="pro" id="Car">
+                <i id="icon-product" class="fa-solid fa-car icon-center"></i>
+                <h4>Car</h4>
+                <h4>310$</h4>
+                <button onclick="AddtoCart()" id="AddtoCart">Add to card</button>
+            </div> <!--End of pro7-->
+
+            <div class="pro" id="Tv">
+                <i id="icon-product" class="fa-solid fa-tv icon-center"></i>
+                <h4>Tv</h4>
+                <h4>00$</h4>
+                <button onclick="AddtoCart()" id="AddtoCart">Add to card</button>
+            </div> <!--End of pro8-->
+
+        </div> <!--End of Div show-serach-info-->
+        
+        <div class="show-Add-cart" id="show-Add-cart" style="margin-top: 100px;">
+            <h1>Shoping Cart</h1>
+        <div class="show-cart-info" id="show-cart-info">
+
+             <div class="pro-Added" id="Add_Schuhe">
+
+                <i id="icon-product" class="fa-solid fa-shoe-prints icon-center"></i>
+                <h4>Schuhe</h4>
+                <br>
+                <h4>30$</h4>
+            </div> <!--End of pro1-->
+
+            <div class="pro-Added" id="Add_T-shirt">
+                <i id="icon-product" class="fa-solid fa-shirt icon-center"></i>
+                <h4>T-shirt</h4>
+                <br>
+                <h4>60$</h4>
+            </div> <!--End of pro2-->
+
+            <div class="pro-Added" id="Add_Smartwatch">
+                <i id="icon-product" class="fa-solid fa-watch icon-center"></i>
+                <h4>Smartwatch</h4>
+                <br>
+                <h4>10$</h4>
+            </div>   <!--End of pro3-->
+
+            <div class="pro-Added" id="Add_Headphones">
+                <i id="icon-product" class="fa-solid fa-headphones icon-center"></i>
+                <h4>Headphones</h4>
+                <br>
+                <h4>51$</h4>
+                
+            </div> <!--End of pro4-->
+
+            <div class="pro-Added" id="Add_Handy">
+                <i id="icon-product" class="fa-solid fa-mobile icon-center"></i>
+                <h4>Handy</h4>
+                <br>
+                <h4>120$</h4>
+            </div> <!--End of pro5-->
+
+            <div class="pro-Added" id="Add_Car">
+                <i id="icon-product" class="fa-solid fa-car icon-center"></i>
+                <h4>Car</h4>
+                <br>
+                <h4>310$</h4>
+                
+            </div> <!--End of pro7-->
+
+            <div class="pro-Added" id="Add_Tv">
+                <i id="icon-product" class="fa-solid fa-tv icon-center"></i>
+                <h4>Tv</h4>
+                <br>
+                <h4>00$</h4>
+            </div> <!--End of pro8-->
+
+        <footer style="display: none;">
+            <h3>total:</h3>
+            <br>
+            <h3 id="total">130$</h3>
+        </footer>
+
+        </div>
+        <button id="Checkout" onclick="Checkout()" style="display: none;">Checkout</button>
+        </div>
+    </div>
+    <script src="Javascript.js"></script>
+</body>
+</html>
