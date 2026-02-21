@@ -134,7 +134,10 @@ Double-click `index.html` — or open with **Live Server** in VS Code.
 5. **Checkout** — Click **Checkout** to complete — cart resets after
 
 ---
-## Screenshot 
+## 📸 Screenshot
+<img width="2592" height="1068" alt="Image" src="https://github.com/user-attachments/assets/d51d4de7-fba9-4e9f-b788-1fc87e3e3b6c" />
+
+<img width="733" height="1528" alt="Image" src="https://github.com/user-attachments/assets/a8060206-d9d3-4b38-b338-a77788e3092e" />
 
 ---
 ## 📬 Contact
